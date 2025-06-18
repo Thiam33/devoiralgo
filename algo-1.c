@@ -17,9 +17,36 @@ float montantMin(Facture tab[], int n) {
     return min;
 }
 
+<<<<<<< HEAD
 //definir la structure facture 
+=======
+//definir la structure facture
+Facture = enregistrement
+objet:chaine
+montant: réel
+fin
+>>>>>>> b36e711e89fc812cda3ffef0605fccc49b129976
 //procedure remplir tab
+procédure remplir_tab(var T: tableau de Facture; n: entier)
+var
+  i: entier
+début
+  pour i de 1 à n faire
+    écrire("Entrer l'objet de la facture ", i, ": ")
+    lire(T[i].objet)
+    écrire("Entrer le montant de la facture ", i, ": ")
+    lire(T[i].montant)
+  fin pour
+fin
  //procedure affiche tab
+ procédure affiche_tab(T: tableau de Facture; n: entier)
+var
+  i: entier
+début
+  pour i de 1 à n faire
+    écrire("Facture ", i, ": Objet = ", T[i].objet, ", Montant = ", T[i].montant)
+  fin pour
+fin
 
  //fonction somme par objet 
  FUNCTION sommeParObjet(tab: ARRAY OF Facture; n: INTEGER; objetRecherche: STRING): REAL;
