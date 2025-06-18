@@ -1,14 +1,9 @@
-//fonctin somme tab
-
-
-//fonction min tab
-
-
+//fonction somme tab
+//fonction mi tab
 
 //definir la structure facture
+//procedure remplir tab
+ //procedure affiche tab
 
-
-//procedure remplire tab
-
-
-//procedure afficher tab
+ //fonction somme par objet 
+ //fonction max tab
