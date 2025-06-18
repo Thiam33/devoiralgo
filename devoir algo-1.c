@@ -16,7 +16,7 @@ début
     écrire("Entrer l'objet de la facture ", i, ": ")
     lire(T[i].objet)
     écrire("Entrer le montant de la facture ", i, ": ")
-    lire(T[i].montant)
+    lire(T[i].montant);
 finpour
 fin
  //procedure affiche tab
