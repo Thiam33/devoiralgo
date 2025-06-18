@@ -17,8 +17,7 @@ float montantMin(Facture tab[], int n) {
     return min;
 }
 
-//definir la structure facture
-
+//definir la structure facture 
 //procedure remplir tab
  //procedure affiche tab
 
